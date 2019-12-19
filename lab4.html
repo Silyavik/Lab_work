@@ -1,0 +1,97 @@
+Пример 1
+var number=[1, 9, 44, 21, 78];
+console.log(number[1], number[number.length-2]);
+Ответ : 9 21
+Пример 2
+
+var color=["Blue","Red","Yellow"]
+color[1]="Black"
+color[3]="Yellow"
+console.log(color[0], color[1], color[color.length-1])
+Ответ:   ["Blue Black Yellow"]
+Пример 3  №1
+ var A=[25,35,45]
+A.push(100)
+A.unshift(100)
+console.log(A)
+№2
+Ответ: [100, 25, 35, 45, 100]
+A.pop()
+A.shift()
+console.log(A)
+Ответ: [25, 35, 45]
+Пример 4  №1
+ var A=[25,35,45]
+A.push(100)
+A.unshift(100)
+console.log(A)
+Ответ: [100, 25, 35, 45, 100]
+№2
+A.pop()
+A.shift()
+console.log(A)
+Ответ: [25, 35, 45]
+№3
+A.length=0
+console.log(A)
+Ответ: []
+Пример 5
+var colors = ["Кислый","Солёный","Сладкий"];
+colors.join(" или ")
+Ответ:  "Кислый или Солёный или Сладкий"
+Пример 6
+ var colors = ["Кислый","Солёный","Сладкий"];
+ var numbers = [10,20,30];
+var colorNumber=colors.concat(numbers);
+ console.log(colorNumber)
+ Ответ: ["Кислый", "Солёный", "Сладкий", 10, 20, 30]
+№2
+ colorNumber.slice(2, 5)
+Ответ: ["Сладкий", 10, 20]
+Пример 7 №1
+var arr = [1,2,3,4,5,6]
+arr.slice(1)
+Ответ: (3) [2,3,4,5,6]
+
+
+№2
+arr.slice(1,4)
+Ответ: [2, 3, 4]
+№3
+arr.slice(3,4)
+Ответ: [4]
+№4
+arr.slice(-2)
+Ответ: [5, 6]
+№5
+arr.slice(arr.length-2)
+Ответ: [5, 6]
+№6
+arr.slice(-3,-1)
+Ответ: [4, 5]
+№7
+arr.slice(arr.length-3,arr.length-1)
+Ответ: [4, 5]
+Пример 8 №1
+ var colors =[“white”,”yellow”,”blue”]
+ colors.reverse()
+Ответ: [“blue”,"yellow","white"]
+№2
+ var colors = [“white”,”yellow”,”blue”]
+colors.sort()
+Ответ: (3) ["blue”,"yellow","white"]
+
+
+Пример 9
+ №1
+var arr = [1,2,3,4,5,6]
+arr.splice(3,2)
+Ответ: [4, 5]
+№2
+var arr = [1,2,3,4,5,6]
+arr.splice(-5,2)
+Ответ:  [2, 3]
+№3
+ var arr = [1,2,3,4,5,6]
+arr.splice(2,0,7)
+Ответ:  []
